@@ -1,31 +1,3 @@
-# menu= "(G)et a valid score \n(P)rint result\n(S)how stars\n(Q)uit"
-# print(menu)
-# choice=input(">>>").upper()
-# while choice!="Q":
-#     if choice=="G":
-#         user_score=float(input("Score :"))
-#         while user_score<0 or user_score>100:
-#             print("Invalid Score")
-#             user_score=float(input("Score :"))
-#         print(f"Your score is {user_score}")
-#     elif choice=="P":
-#         if user_score < 50:
-#             print("Bad")
-#         elif user_score > 90:
-#             print("Excellent")
-#         else:
-#             print("Passable")
-#     elif choice=="S":
-#         print("*" * len(user_score))
-#
-#     else:
-#         print("Invalid message")
-#     print(menu)
-#     choice=input(">>>").upper()
-#
-# print("Fare well.")
-#
-
 
 menu= "(G)et a valid score \n(P)rint result\n(S)how stars\n(Q)uit"
 def main():
