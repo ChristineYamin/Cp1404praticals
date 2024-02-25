@@ -1,4 +1,3 @@
-
 def main():
     celsius = float(input("Celsius: "))
     convert_celsius_to_Fahrennheit(celsius)
