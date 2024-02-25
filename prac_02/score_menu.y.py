@@ -1,7 +1,7 @@
 
-menu= "(G)et a valid score \n(P)rint result\n(S)how stars\n(Q)uit"
+MENU= "(G)et a valid score \n(P)rint result\n(S)how stars\n(Q)uit"
 def main():
-    print(menu)
+    print(MENU)
     choice = input(">>>").upper()
     while choice != "Q":
         if choice == "G":
@@ -17,7 +17,7 @@ def main():
 
         else:
             print("Invalid message")
-        print(menu)
+        print(MENU)
         choice = input(">>>").upper()
 
     print("Fare well.")
