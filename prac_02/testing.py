@@ -70,4 +70,4 @@ def get_password(min_length):
 def print_asterisks(word):
     print('*' * len(word))
 
-main()
+main()mmm,
