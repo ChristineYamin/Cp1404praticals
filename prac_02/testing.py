@@ -55,19 +55,38 @@ import random
 # print_grid(3,7)
 
 
-def main():
-    min_length = 8  # Minimum length for the password
-    password = get_password(min_length)
-    print_asterisks(password)
+# def main():
+#     min_length = 8  # Minimum length for the password
+#     password = get_password(min_length)
+#     print_asterisks(password)
+#
+# def get_password(min_length):
+#         password = input("Enter a password: ")
+#         while len(password) < min_length:
+#             print("Password is too short. Minimum length is {} characters.".format(min_length))
+#             password = input("Enter a password: ")
+#         return password
+#
+# def print_asterisks(word):
+#     print('*' * len(word))
+#
+# main()
 
-def get_password(min_length):
-        password = input("Enter a password: ")
-        while len(password) < min_length:
-            print("Password is too short. Minimum length is {} characters.".format(min_length))
-            password = input("Enter a password: ")
-        return password
+# nums1 = [1, -5, 2, 0, 4, 2, -3]
+# nums2 = [1, -5, 2, 4, 4, 2, 7]
+# result = 0
+# j = 0
+# print(nums1[j])
+# print(nums2[j])
+# while j < len(nums1):
+#     if nums1[j] != nums2[j]:
+#         result = result + 1
+#     j = j + 1
+# print(result)
 
-def print_asterisks(word):
-    print('*' * len(word))
 
-main()mmm,
+def fn(x, y):
+    z = x + y
+
+
+print(fn(1, 2))
