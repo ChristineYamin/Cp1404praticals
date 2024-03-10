@@ -71,5 +71,23 @@ words="This is python"
 
 # print([word for word in words])
 
-text = "Enjoy the test"
-result = text.strip().split()[0]
+# numbers=[10,3,6,-20,87,3,-1]
+# print(numbers)
+# print([number*2 for number in numbers])
+# print([number for number in numbers if number >50])
+# print([number*2 for number in numbers if number>50])
+# print([number for number in numbers if number <0])
+# print([number/2 for number in numbers])
+# print([number/2 for number in numbers if number>10])
+
+# words= "Hi THERE mum".split()
+# print(words)
+# print([word for word in words])
+# print([word for word in words if len(word)>2])
+# print([len(word) for word in words])
+# print([max(len(word) for word in words)])
+# print([word[1] for word in words])
+# print([word.upper() for word in words])
+# print([word for word in words if word.islower()])
+# print([word for word in words if word.isupper()])
+
