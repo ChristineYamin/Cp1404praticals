@@ -9,7 +9,7 @@ CODE_TO_NAME={"Absolute Zero": "#0048ba","Acid Green" : "#b0bf1a", "Alice Blue":
 colour_name=input("Enter Colour Name :").title()
 print(CODE_TO_NAME[colour_name])
 
-while colour_name!="":
+while colour_name != "":
     if colour_name in CODE_TO_NAME:
         print(f"Colour code of {colour_name} is {CODE_TO_NAME[colour_name]}")
     else:
