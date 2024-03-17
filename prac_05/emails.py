@@ -13,7 +13,7 @@ def main():
         username = get_name(email)
         enquiry = input(f"Is your name{username}? (Y/n)").upper()
         if enquiry != "Y" and enquiry != "":
-            real_name = input("Name :")
+            username = input("Name :")
         email_to_name[email] = username
         email = input("Email :")
     for email, username in email_to_name.items():
