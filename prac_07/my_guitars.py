@@ -1,13 +1,12 @@
 
-
-
-
-
+FILENAME = "guitars.csv"
 from guitar import Guitar
 def main():
     "Read data from the file and results the datas"
-    FILENAME = "guitars.csv"
+
     guitars = read_data_from_file(FILENAME)
+    get_userinput(guitars)
+    write_new_data(guitars)
     results_guitars(guitars)
 
 
@@ -27,4 +26,23 @@ def read_data_from_file(FILENAME):
 def results_guitars(guitars):
     for guitar in guitars:
         print(guitar)
+def get_userinput(guitars):
+    """ Getting input from the user"""
+    name = input("Name : ")
+    year = int(input("Year : "))
+    cost = float(input("Cost : "))
+    print(f"{name} {year} {cost}")
+    guitars.append(Guitar(name,year,cost))
+
+def write_new_data(guitars):
+    "Write new data to the file"
+    with open(FILENAME,"w") as out_file:
+        for guitar in guitars:
+            out_file.write(f"{guitar.name},{guitar.year} {guitar.cost}")
+
+
+
+
+
+
 main()
