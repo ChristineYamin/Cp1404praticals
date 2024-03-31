@@ -27,7 +27,4 @@ class ConvertMile(App):
         self.handle_calculate()
         self.root.ids.input_miles.text = str(miles)
 
-
-
-
 ConvertMile().run()
