@@ -13,7 +13,7 @@ NEW_COLOUR = (1, 0, 0, 1)  # RGBA for red
 ALTERNATIVE_COLOUR = (1, 0, 1, 1)  # RGBA for magenta
 
 
-class DynamicWidgetsApp(App):
+class DynamiclabelsApp(App):
     """Main program - Kivy app to demo dynamic widget creation."""
     status_text = StringProperty()
 
@@ -32,4 +32,4 @@ class DynamicWidgetsApp(App):
             self.root.ids.main.add_widget(name_label)
         return self.root
 
-DynamicWidgetsApp().run()
+DynamiclabelsApp().run()
