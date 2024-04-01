@@ -24,3 +24,6 @@ https://github.com/CP1404/Starter/wiki/Programming-Patterns
 https://github.com/CP1404/Practicals/tree/master
 
 
+### Mail
+
+Hello! My name is Magomed. I am a student and this is just for homework!
